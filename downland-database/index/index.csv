@@ -1,3 +1,3 @@
-index,os,bin_dir,search_terms,category,title,description,icon_url,config_url
-1,windows-x64,bin/gcc.exe,"gcc g++ mingw c c++ compiler build",Compilers & Build Tools,"GCC - GNU Compiler Collection","Natywny zestaw kompilatorów C/C++ dla Windowsa (MinGW-w64).",https://upload.wikimedia.org/wikipedia/commons/2/22/GNU_Compiler_Collection_logo.svg,https://raw.githubusercontent.com/twoje-user/carial-repo/main/tools/gcc-mingw.crtoolconf
-2,windows-x64,python.exe,"python py interpreter script pandas",Programming Languages,"Python 3.12","Oficjalny interpreter języka Python w wersji embeddable.",https://raw.githubusercontent.com/twoje-user/carial-repo/main/icons/python.png,https://raw.githubusercontent.com/twoje-user/carial-repo/main/tools/python.crtoolconf
+index,os,bin_dir,search_terms,category,title,description,icon_url,config_file
+1,windows-x64,bin/gcc.exe,"gcc g++ mingw c c++ compiler build",Compilers & Build Tools,"GCC - GNU Compiler Collection","Natywny zestaw kompilatorów C/C++ dla Windowsa (MinGW-w64).",https://upload.wikimedia.org/wikipedia/commons/2/22/GNU_Compiler_Collection_logo.svg,gcc-mingw.crtoolconf
+2,windows-x64,python.exe,"python py interpreter script pandas",Programming Languages,"Python 3.12","Oficjalny interpreter języka Python w wersji embeddable.",https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg,python.crtoolconf
