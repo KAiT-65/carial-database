@@ -1,30 +1,12 @@
-/metadata/
-\name\(GCC Compiler MinGW-w64)
-\ver\(13.2.0)
-\author\(GNU Project / WinLibs)
-\cat\(Compilers)
-
-/profbuild/
-\icon\(https://gcc.gnu.org/img/gccegg-65.png)
-\img:banner\(https://gcc.gnu.org/img/gccegg-65.png)
-
-/description/
-# GCC Compiler (MinGW-w64)
-
-The **GNU Compiler Collection (GCC)** is an advanced compiler system supporting C, C++, and other programming languages.
-
-### Key Features:
-* Full support for modern **C23** and **C++23** standards.
-* Lightweight, portable build tailored for Windows x86_64.
-* Includes `g++`, `gcc`, `gfortran`, and `make` utilities.
-
-here(\img:banner\)
-
-> *Note:* Extracted binaries will be placed in the target directory and ready for CLI invocation.
+/meta/
+\title\(GCC MinGW-w64)
+\author\(Brecht Sanders / WinLibs)
+\version\(16.1.0)
+\description\(Kompletny kompilator C/C++ dla Windowsa (GCC + MinGW-w64 + UCRT + POSIX + SEH))
+\category\(compilers)
 
 /execution/
-\mirror-url-1(https://github.com/brechtsanders/winlibs_mingw/releases/download/16.1.0posix-14.0.0-ucrt-r4/winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r4.zip)
-\type\(exe)
-\hash\(none)
-\target_bin\(gcc.exe)
-\bin_dir\()
+\sources\(https://github.com/brechtsanders/winlibs_mingw/releases/download/16.1.0posix-14.0.0-ucrt-r4/winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r4.zip)
+\extract_dir\(gcc)
+\target_bin\(bin/gcc.exe)
+\run_after\(powershell -Command "[Environment]::SetEnvironmentVariable('Path', [Environment]::GetEnvironmentVariable('Path', 'User') + ';{INSTALL_DIR}\gcc\bin', 'User')")
