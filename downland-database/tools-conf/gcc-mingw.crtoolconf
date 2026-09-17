@@ -1,30 +1,31 @@
 /metadata/
-\id\(gcc-mingw-w64)
-\name\(GCC - GNU Compiler Collection)
+\name\(GCC Compiler MinGW-w64)
 \ver\(13.2.0)
-\os\(windows-x64)
-\author\(Free Software Foundation / MinGW-w64)
-\cat\(Compilers & Build Tools)
+\author\(GNU Project / WinLibs)
+\cat\(Compilers)
 
 /profbuild/
-\icon\(https://upload.wikimedia.org/wikipedia/commons/2/22/GNU_Compiler_Collection_logo.svg)
-\img:compilation_flow\(https://raw.githubusercontent.com/wiki/gcc-mirror/gcc/images/gcc_overview.png)
-\img:terminal_demo\(https://upload.wikimedia.org/wikipedia/commons/8/82/Gcc_fortran_compile_run.png)
+\icon\(https://gcc.gnu.org/img/gccegg-65.png)
+\img:banner\(https://gcc.gnu.org/img/gccegg-65.png)
 
 /description/
-GCC (GNU Compiler Collection) to kluczowy zestaw kompilatorów wspierający języki C, C++, Fortran i inne. 
+# GCC Compiler (MinGW-w64)
 
-Wersja dla systemu Windows dostarczana przez projekt MinGW-w64 pozwala na natywne kompilowanie kodu bez dodatkowych warstw emulacji:
-here(\img:compilation_flow\)
+The **GNU Compiler Collection (GCC)** is an advanced compiler system supporting C, C++, and other programming languages.
 
-Pakiet zawiera pełny zestaw narzędzi binutils (w tym ld, as, ar) oraz podstawowe nagłówki systemowe Windows API:
-here(\img:terminal_demo\)
+### Key Features:
+* Full support for modern **C23** and **C++23** standards.
+* Lightweight, portable build tailored for Windows x86_64.
+* Includes `g++`, `gcc`, `gfortran`, and `make` utilities.
 
-Narzędzie jest niezbędne do budowania większości projektów Open Source oraz tworzenia wydajnych aplikacji natywnych.
+here(\img:banner\)
+
+> *Note:* Extracted binaries will be placed in the target directory and ready for CLI invocation.
 
 /execution/
-\url\(https://github.com/brechtsanders/winlibs_mingw/releases/download/13.2.0posix-17.0.6-11.0.1-ucrt-r1/winlibs-x86_64-posix-seh-gcc-13.2.0-mingw-w64ucrt-11.0.1-r1.zip)
+\mirror-url-1\(https://github.com/brechtsanders/winlibs_mingw/releases/download/13.2.0posix-17.0.6-11.0.1-ucrt-r1/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-r1.zip)
+\mirror-url-2\(https://sourceforge.net/projects/winlibs/files/13.2.0posix-17.0.6-11.0.1-ucrt-r1/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-r1.zip/download)
 \type\(zip)
-\hash\(8a9e2d14b436e2f1e405a3064c5fa0b48a306b4b574fae48d3e91122a76f23b2)
+\hash\(none)
 \target_bin\(bin/gcc.exe)
 \bin_dir\(bin)
