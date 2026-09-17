@@ -23,9 +23,8 @@ here(\img:banner\)
 > *Note:* Extracted binaries will be placed in the target directory and ready for CLI invocation.
 
 /execution/
-\mirror-url-1\(https://github.com/brechtsanders/winlibs_mingw/releases/download/13.2.0posix-17.0.6-11.0.1-ucrt-r1/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-r1.zip)
-\mirror-url-2\(https://sourceforge.net/projects/winlibs/files/13.2.0posix-17.0.6-11.0.1-ucrt-r1/winlibs-x86_64-posix-seh-gcc-13.2.0-llvm-17.0.6-mingw-w64ucrt-r1.zip/download)
-\type\(zip)
+\mirror-url-1(https://sf-eu-introserv-1.dl.sourceforge.net/project/gcc-win64/16.2.0/gcc-16.2.0-gdb-17.2.90.20260510-binutils-2.46.1-mingw-w64-v14.0.0-ucrt.7z?viasf=1&fid=6d49ba5f037a8aa2&e=1789756283&st=jeeXXYxUUlhf-t4D_JC79A)
+\type\(exe)
 \hash\(none)
-\target_bin\(bin/gcc.exe)
-\bin_dir\(bin)
+\target_bin\(gcc.exe)
+\bin_dir\()
